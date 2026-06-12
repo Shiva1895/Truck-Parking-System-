@@ -1,1 +1,155 @@
-# Truck-Parking-System-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+<body>
+
+<div class="dashboard">
+
+<h1>Truck Parking & Driver Rest Booking System</h1>
+
+<div class="card">
+<h3>Total Bookings</h3>
+<p>12</p>
+</div>
+
+<div class="card">
+<h3>Current Booking</h3>
+<p>Belagavi Truck Hub</p>
+</div>
+
+<div class="card">
+<h3>Notifications</h3>
+<ul>
+<li>Booking Confirmed</li>
+<li>Rest Area Available</li>
+<li>Payment Successful</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Available Parking Slots</h3>
+<p>Total Slots: 50</p>
+<p>Available: 32</p>
+<p>Occupied: 18</p>
+
+<button onclick="bookSlot()">
+Book Slot
+</button>
+</div>
+
+<div class="card">
+<h3>Rest Area Information</h3>
+
+<p><b>Name:</b> Belagavi Truck Rest Hub</p>
+<p><b>Location:</b> NH-48 Belagavi</p>
+<p><b>Beds Available:</b> 25</p>
+<p><b>Washrooms:</b> Available</p>
+<p><b>Food Court:</b> Available</p>
+<p><b>Shower Facility:</b> Available</p>
+<p><b>WiFi:</b> Free WiFi</p>
+<p><b>Security:</b> 24/7 CCTV</p>
+
+</div>
+
+<div class="card">
+<h3>Nearby Services</h3>
+
+<ul>
+<li>🏥 Hospital - 2 km</li>
+<li>⛽ Fuel Station - 1 km</li>
+<li>🚔 Police Station - 3 km</li>
+<li>🔧 Mechanic - 500 m</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h3>GPS Navigation</h3>
+
+<button onclick="openMap()">
+Navigate
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>Emergency Help</h3>
+
+<button onclick="sosAlert()">
+SOS Emergency
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>Ratings & Reviews</h3>
+
+<p>⭐⭐⭐⭐⭐ 4.8/5</p>
+
+<textarea
+rows="4"
+cols="40"
+placeholder="Write Review">
+</textarea>
+
+<br><br>
+
+<button>
+Submit Review
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>Select Language</h3>
+
+<select>
+
+<option>English</option>
+<option>Hindi</option>
+<option>Kannada</option>
+<option>French</option>
+
+</select>
+
+</div>
+
+<div class="card">
+
+<h3>Owner Panel</h3>
+
+<p>Manage Slots</p>
+<p>Manage Pricing</p>
+<p>View Revenue</p>
+
+</div>
+
+<div class="card">
+
+<h3>Admin Dashboard</h3>
+
+<p>Total Users: 150</p>
+<p>Total Bookings: 420</p>
+<p>Revenue: ₹75,000</p>
+
+</div>
+
+<button onclick="logout()">
+Logout
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
